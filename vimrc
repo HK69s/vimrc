@@ -1,20 +1,10 @@
-set nocompatible
-filetype off
-set rtp+=~/.vim/bundle/Vundle.vim
-"call vundle#begin()
-"Plugin 'VundleVim/Vundle.vim'
- 
-"Plugs下面加入你需要的vim-plug
-"Plugin 'vim-airline/vim-airline'
-"call vundle#end()
-filetype plugin indent on
-
 let mapleader=" "
 " 开启高亮
 syntax on
 
 " 显示行号
 set number
+set relativenumber
 
 " 设置字体不会超出当前位置
 set wrap
@@ -22,7 +12,7 @@ set wrap
 "当前行列高亮
 "set cursorcolumn
 set cursorline
-highlight CursorLine   cterm=NONE ctermbg=black ctermfg=green guibg=NONE guifg=NONE
+highlight CursorLine   cterm=NONE ctermbg=black ctermfg=NONE guibg=NONE guifg=NONE
 "highlight CursorColumn cterm=NONE ctermbg=black ctermfg=green guibg=NONE guifg=NONE
 
 "让打字显示
@@ -105,6 +95,8 @@ map z<right> :vertical resize+5<CR>
 
 " 插件
 call plug#begin('~/.vim/plugged')
+
+Plug 'mhinz/vim-startify'
 
 " fzf模糊查询
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all'  }
