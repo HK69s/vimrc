@@ -114,7 +114,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'majutsushi/tagbar', { 'on': 'TagbarOpenAutoClose' }
 
 " Error checking 错误检查
-Plug 'w0rp/ale'
+Plug 'dense-analysis/ale'
 
 " Auto Complete 代码补全插件
 Plug 'Valloric/YouCompleteMe'
