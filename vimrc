@@ -1,6 +1,8 @@
 let mapleader=" "
 " 开启高亮
 syntax on
+" 颜色设置
+set t_Co=256
 
 " 显示行号
 set number
@@ -117,7 +119,8 @@ Plug 'majutsushi/tagbar', { 'on': 'TagbarOpenAutoClose' }
 Plug 'dense-analysis/ale'
 
 " Auto Complete 代码补全插件
-Plug 'Valloric/YouCompleteMe'
+" Plug 'Valloric/YouCompleteMe'
+Plug 'ycm-core/YouCompleteMe'
 
 " Other visual enhancement
 Plug 'nathanaelkane/vim-indent-guides'
