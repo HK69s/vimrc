@@ -49,6 +49,12 @@ ZSH_THEME=powerlevel10k/powerlevel10k
 
 ## 配置terminal终端
 
+[主题](https://terminalsplash.com/)
+
+[终端颜色](https://windowsterminalthemes.dev/)
+
+颜色修改后直接修改colorscheme中的名字即可。
+
 WSL配置字体其实就是配置终端的字体，点击设置会自动跳转到一个json格式的文档。
 
 ```js
